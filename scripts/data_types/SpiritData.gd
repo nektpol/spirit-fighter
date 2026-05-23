@@ -5,7 +5,7 @@ class_name SpiritData
 @export var spirit_name: String
 @export var spirit_class: SpiritType.Class
 
-@export var element: String
+@export var element: ElementType.Type
 
 @export var max_hp: int = 100
 @export var attack: int = 10
