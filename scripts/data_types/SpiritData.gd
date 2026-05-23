@@ -3,7 +3,7 @@ class_name SpiritData
 
 @export var id: String
 @export var spirit_name: String
-@export var spirit_class: SpiritTypes.Class
+@export var spirit_class: SpiritType.Class
 
 @export var element: String
 
