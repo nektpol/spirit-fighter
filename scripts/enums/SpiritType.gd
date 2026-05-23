@@ -1,5 +1,5 @@
 extends Node
-class_name SpiritTypes
+class_name SpiritType
 
 enum Class {
 	DEFENDER,
