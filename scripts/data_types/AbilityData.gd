@@ -12,7 +12,7 @@ class_name AbilityData
 @export var accuracy: float = 1.0
 
 # optional: elemental scaling later
-@export var element: String
+@export var element: ElementType.Type
 
 # --- Costs ---
 @export var mana_cost: int = 5
