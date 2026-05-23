@@ -1,0 +1,15 @@
+extends Node
+class_name BattleState
+
+enum State {
+	MATCH_START,
+	ROUND_START,
+	TURN_START,
+	CHARACTER_PHASE,
+	SPIRIT_PHASE,
+	RESOLVE_PHASE,
+	CHECK_ROUND_END,
+	TURN_END,
+	ROUND_END,
+	MATCH_END
+}
