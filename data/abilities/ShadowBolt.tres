@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AbilityData" format=3 uid="uid://bjdk73k1suvse"]
+
+[ext_resource type="Script" uid="uid://c585e3tmvboec" path="res://scripts/data_types/AbilityData.gd" id="1_u4mok"]
+
+[resource]
+script = ExtResource("1_u4mok")
+ability_name = "Shadow Bolt"
+description = "Type: damage || Effects: simple ranged damage "
+power = 18
+cooldown = 0
+metadata/_custom_type_script = "uid://c585e3tmvboec"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AbilityData" format=3 uid="uid://botr11xsbnyg"]
+
+[ext_resource type="Script" uid="uid://c585e3tmvboec" path="res://scripts/data_types/AbilityData.gd" id="1_21gsm"]
+
+[resource]
+script = ExtResource("1_21gsm")
+ability_name = "Blood Rush"
+description = "Type: self buff + attack || Effects: high damage, Berserker attack next turn"
+power = 26
+element = 3
+mana_cost = 12
+cooldown = 3
+is_ultimate = true
+metadata/_custom_type_script = "uid://c585e3tmvboec"

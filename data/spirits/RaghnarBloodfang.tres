@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SpiritData" format=3 uid="uid://bmj5wkuqjnwv0"]
+
+[ext_resource type="Resource" uid="uid://c4p2rp6en3lgh" path="res://data/abilities/BrutalStrike.tres" id="1_qu51e"]
+[ext_resource type="Resource" uid="uid://cy5sudts2jaq0" path="res://data/abilities/FrenzySlash.tres" id="2_wxy7m"]
+[ext_resource type="Resource" uid="uid://botr11xsbnyg" path="res://data/abilities/BloodRush.tres" id="3_mxg8s"]
+[ext_resource type="Script" uid="uid://dnkfl0js6yavw" path="res://scripts/data_types/SpiritData.gd" id="4_7hk6c"]
+
+[resource]
+script = ExtResource("4_7hk6c")
+spirit_name = "Raghnar Bloodfang"
+spirit_class = 1
+element = 3
+max_hp = 95
+attack = 20
+speed = 12
+abilities = Array[Resource]([ExtResource("1_qu51e"), ExtResource("2_wxy7m"), ExtResource("3_mxg8s")])
+metadata/_custom_type_script = "uid://dnkfl0js6yavw"

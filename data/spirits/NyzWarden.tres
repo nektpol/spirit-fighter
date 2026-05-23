@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SpiritData" format=3 uid="uid://ddntwgh86344x"]
+
+[ext_resource type="Script" uid="uid://dnkfl0js6yavw" path="res://scripts/data_types/SpiritData.gd" id="1_glr7o"]
+[ext_resource type="Resource" uid="uid://bjdk73k1suvse" path="res://data/abilities/ShadowBolt.tres" id="1_wtfi5"]
+[ext_resource type="Resource" uid="uid://31ea18o1ve8t" path="res://data/abilities/CurseTouch.tres" id="2_15ois"]
+[ext_resource type="Resource" uid="uid://yfruh5xfn6u" path="res://data/abilities/LifeDrain.tres" id="3_7mmyj"]
+
+[resource]
+script = ExtResource("1_glr7o")
+spirit_name = "Nyx Warden"
+spirit_class = 3
+max_hp = 85
+attack = 14
+defense = 8
+speed = 10
+abilities = Array[Resource]([ExtResource("1_wtfi5"), ExtResource("2_15ois"), ExtResource("3_7mmyj")])
+metadata/_custom_type_script = "uid://dnkfl0js6yavw"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbilityData" format=3 uid="uid://cy5sudts2jaq0"]
+
+[ext_resource type="Script" uid="uid://c585e3tmvboec" path="res://scripts/data_types/AbilityData.gd" id="1_bsll5"]
+
+[resource]
+script = ExtResource("1_bsll5")
+ability_name = "Frenzy Slash"
+description = "Type: multi-hit burst || Effects: 2 quick strikes, good combo finisher"
+power = 14
+accuracy = 2.0
+element = 3
+mana_cost = 8
+metadata/_custom_type_script = "uid://c585e3tmvboec"

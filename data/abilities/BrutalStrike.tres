@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AbilityData" format=3 uid="uid://c4p2rp6en3lgh"]
+
+[ext_resource type="Script" uid="uid://c585e3tmvboec" path="res://scripts/data_types/AbilityData.gd" id="1_5rdgi"]
+
+[resource]
+script = ExtResource("1_5rdgi")
+ability_name = "Brutal Strike"
+description = "Type: damage || Effects: standard attack"
+power = 22
+element = 3
+cooldown = 0
+metadata/_custom_type_script = "uid://c585e3tmvboec"

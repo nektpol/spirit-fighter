@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbilityData" format=3 uid="uid://yfruh5xfn6u"]
+
+[ext_resource type="Script" uid="uid://c585e3tmvboec" path="res://scripts/data_types/AbilityData.gd" id="1_nxrrc"]
+
+[resource]
+script = ExtResource("1_nxrrc")
+ability_name = "Life Drain"
+description = "Type: sustain || Effects: deals damage, heals user for % of damage"
+power = 12
+mana_cost = 10
+cooldown = 2
+is_ultimate = true
+metadata/_custom_type_script = "uid://c585e3tmvboec"
